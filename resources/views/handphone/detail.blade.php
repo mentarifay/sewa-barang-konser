@@ -8,57 +8,78 @@
 </head>
 <body class="bg-gray-100">
 
-  <div class="max-w-5xl mx-auto py-12 px-6">
-    <!-- Product Section -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <img src="https://cdn.thewirecutter.com/wp-content/media/2022/09/smartphones-2048px-0002-iphone14-2048px-0722.jpg"
-           alt="Handphone" 
-           class="rounded-lg shadow-lg w-full h-auto">
+  <!-- Container -->
+  <div class="max-w-7xl mx-auto py-12 px-6 lg:px-8">
 
+    <!-- Gambar & Detail Produk -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <!-- Gambar besar -->
       <div>
-        <h1 class="text-3xl font-bold text-gray-900 mb-4">Handphone iPhone 14</h1>
-        <p class="text-gray-600 mb-4">Kondisi mulus, kamera jernih, cocok untuk dokumentasi konser.</p>
-        <p class="text-2xl font-bold text-blue-600 mb-6">Rp 100.000 / hari</p>
+        <img src="https://i.pinimg.com/736x/21/c2/80/21c280e368bc932f84e0c63c5d9f6e3e.jpg" 
+             alt="Samsung Galaxy S21"
+             class="w-full h-auto rounded-lg shadow-lg">
+      </div>
 
+      <!-- Detail -->
+      <div>
+        <h1 class="text-3xl font-bold text-gray-900 mb-4">Samsung Galaxy S21</h1>
+        <p class="text-gray-600 mb-6">
+          Handphone flagship dengan performa tinggi. 8GB RAM, 128GB Storage, kamera jernih, 
+          baterai awet. Cocok untuk kerja, konser, atau kebutuhan konten. Kondisi barang terawat.
+        </p>
+        <p class="text-2xl font-bold text-blue-600 mb-6">$50 / day</p>
+
+        <!-- Tombol sewa -->
         <a href="/pembayaran" 
-           class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700">
-          Sewa Sekarang
+           class="inline-block bg-green-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-green-700">
+           Ke Pembayaran
         </a>
       </div>
     </div>
 
-    <!-- Customer Reviews -->
-    <div class="mt-12">
-      <h2 class="text-xl font-bold mb-4">Ulasan Pelanggan</h2>
-      <div class="space-y-4">
-        <div class="bg-white p-4 rounded-lg shadow">
-          <p class="font-semibold">⭐ 5/5 - Rani</p>
-          <p>Kualitas kamera bagus banget, hasil fotonya keren. Baterai juga awet.</p>
+    <!-- Ulasan -->
+    <div class="mt-16">
+      <h2 class="text-2xl font-bold text-gray-900 mb-6">Ulasan Penyewa</h2>
+      <div class="space-y-6">
+        <!-- Review 1 -->
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p class="font-semibold text-gray-800">⭐ 5/5 - Dinda</p>
+          <p class="text-gray-600 mt-2">HP-nya mulus banget, baterai awet. Nyaman dipakai seharian.</p>
         </div>
-        <div class="bg-white p-4 rounded-lg shadow">
-          <p class="font-semibold">⭐ 4/5 - Bima</p>
-          <p>HP lancar dipakai, cuma memori agak terbatas. Tapi oke buat sewa singkat.</p>
+        <!-- Review 2 -->
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p class="font-semibold text-gray-800">⭐ 4/5 - Fajar</p>
+          <p class="text-gray-600 mt-2">Semua fungsi normal, cuma agak berat kalau dipakai main game lama.</p>
         </div>
       </div>
     </div>
 
-    <!-- Related Products -->
-    <div class="mt-12">
-      <h2 class="text-xl font-bold mb-4">Orang juga menyewa</h2>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
-        <div class="bg-white p-4 rounded-lg shadow text-center">
-          <img src="https://cf.shopee.co.id/file/f59b25e8d7e3ed18b1f6b6d1f6b19afc" class="mx-auto h-32 object-cover mb-4">
-          <p>Powerbank 20.000mAh</p>
+    <!-- Referensi Barang Lain -->
+    <div class="mt-16">
+      <h2 class="text-2xl font-bold text-gray-900 mb-6">Orang juga menyewa</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Referensi 1 -->
+        <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
+          <img src="https://i.pinimg.com/736x/bf/13/26/bf1326710c146f75dcf8f33f4aa5ad9d.jpg" 
+               alt="iPhone 13 Pro"
+               class="w-full h-48 object-cover rounded">
+          <h3 class="mt-4 font-semibold text-gray-900">iPhone 13 Pro</h3>
+          <p class="text-blue-600 font-bold">$70 / day</p>
+        </div>
+
+        <!-- Referensi 2 -->
+        <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
+          <img src="https://i.pinimg.com/736x/9d/bf/2b/9dbf2bf01824937eab07caa897c7cda0.jpg" 
+               alt="Powerbank"
+               class="w-full h-48 object-cover rounded">
+          <h3 class="mt-4 font-semibold text-gray-900">Powerbank 20.000mAh</h3>
           <p class="text-blue-600 font-bold">Rp 25.000 / hari</p>
         </div>
-        <div class="bg-white p-4 rounded-lg shadow text-center">
-          <img src="https://cf.shopee.co.id/file/76e2c27f46ce2aa3dd5ad8fbd40b3f21" class="mx-auto h-32 object-cover mb-4">
-          <p>Lightstick SEVENTEEN</p>
-          <p class="text-blue-600 font-bold">Rp 50.000 / hari</p>
-        </div>
+
       </div>
     </div>
-  </div>
 
+  </div>
 </body>
 </html>
