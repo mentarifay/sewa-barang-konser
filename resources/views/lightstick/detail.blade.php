@@ -22,7 +22,7 @@
 
       <!-- Detail -->
       <div>
-        <h1 class="text-3xl font-bold text-gray-900 mb-4">Lightstick SEVENTEEN</h1>
+        <h1 class="text-3xl font-bold text-gray-900 mb-4">Lightstick BTS</h1>
         <p class="text-gray-600 mb-6">
           Kondisi sangat baik, LED terang dan awet. Cocok untuk dipakai saat konser, fan meeting, 
           atau sekadar koleksi. Barang sudah dicek sebelum disewakan.
