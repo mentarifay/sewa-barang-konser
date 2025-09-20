@@ -1,20 +1,19 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
 
 class RegisterController extends Controller
 {
-    public function showRegisterForm()
+    public function showCreateForm()
     {
-        return view('auth.create.account');
+        return view('create-account');
     }
 
-    public function register(Request $request)
+    public function storeAccount(Request $request)
     {
         $request->validate([
             'name'     => 'required|string|max:255',
@@ -44,6 +43,6 @@ class RegisterController extends Controller
 
         auth()->login($user);
 
-        return redirect()->route('home')->with('success', 'Akun berhasil dibuat!');
+        return redirect()->route('create-account')->with('success', 'Akun berhasil dibuat!');
     }
 }
