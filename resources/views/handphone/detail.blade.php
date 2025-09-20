@@ -70,7 +70,7 @@
 
         <!-- Referensi 2 -->
         <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
-          <img src="https://i.pinimg.com/736x/9d/bf/2b/9dbf2bf01824937eab07caa897c7cda0.jpg" 
+          <img src="https://i.pinimg.com/736x/5d/74/9f/5d749f6425ae045ba195f5e7a93a35ae.jpg" 
                alt="Powerbank"
                class="w-full h-48 object-cover rounded">
           <h3 class="mt-4 font-semibold text-gray-900">Powerbank 20.000mAh</h3>
