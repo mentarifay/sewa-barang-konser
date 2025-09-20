@@ -4,10 +4,10 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\Auth\RegisterController;
 
 // Tampilkan form
-Route::get('/create-account', [RegisterController::class, 'showCreateAccountForm'])->name('create-account');
+Route::get('/create-account', [RegisterController::class, 'showCreateForm'])->name('create.account');
 
 // Tangani form POST
-Route::post('/register', [RegisterController::class, 'storeAccount'])->name('register');
+Route::post('/create-account', [RegisterController::class, 'storeAccount'])->name('create.account.store');
 
 // Halaman utama
 Route::view('/', 'welcome')->name('home');
