@@ -1,6 +1,13 @@
 <?php
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\Auth\RegisterController;
+
+// route untuk nampilin form
+Route::get('/create-account', [RegisterController::class, 'showRegistrationForm'])->name('register');
+
+// route untuk proses form (POST)
+Route::post('/create-account', [RegisterController::class, 'register'])->name('register.store');
 
 // Halaman utama
 Route::view('/', 'welcome')->name('home');
