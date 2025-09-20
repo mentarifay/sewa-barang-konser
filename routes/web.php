@@ -3,12 +3,11 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\Auth\RegisterController;
 
-// route untuk nampilin form
-Route::get('/create-account', [RegisterController::class, 'showRegistrationForm'])->name('create-account');  
-Route::post('/create-account', [RegisterController::class, 'register'])->name('create-account.store');
+// Tampilkan form
+Route::get('/create-account', [RegisterController::class, 'showCreateAccountForm'])->name('create-account');
 
-// route untuk proses form (POST)
-Route::post('/create-account', [RegisterController::class, 'register'])->name('register.store');
+// Tangani form POST
+Route::post('/create-account', [RegisterController::class, 'storeAccount']);
 
 // Halaman utama
 Route::view('/', 'welcome')->name('home');
