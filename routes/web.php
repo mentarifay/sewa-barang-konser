@@ -7,7 +7,7 @@ use App\Http\Controllers\Auth\RegisterController;
 Route::get('/create-account', [RegisterController::class, 'showCreateAccountForm'])->name('create-account');
 
 // Tangani form POST
-Route::post('/create-account', [RegisterController::class, 'storeAccount']);
+Route::post('/register', [RegisterController::class, 'storeAccount'])->name('register');
 
 // Halaman utama
 Route::view('/', 'welcome')->name('home');
