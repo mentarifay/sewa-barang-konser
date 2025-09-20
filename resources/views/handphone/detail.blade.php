@@ -15,7 +15,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <!-- Gambar besar -->
       <div>
-        <img src="https://i.pinimg.com/736x/0e/1d/a0/0e1da0df12f8b14c4affd38a68c59e81.jpg" 
+        <img src="" 
              alt="Samsung Galaxy S21"
              class="w-full h-auto rounded-lg shadow-lg">
       </div>
