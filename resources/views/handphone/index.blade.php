@@ -10,7 +10,7 @@
 
   <!-- Hero Section -->
   <section class="relative bg-gray-800 text-white h-64">
-    <img src="https://i.pinimg.com/736x/3c/1e/f2/3c1ef2e2a6b73e0c61609b5c6eac6d22.jpg" 
+    <img src="https://i.pinimg.com/736x/0e/1d/a0/0e1da0df12f8b14c4affd38a68c59e81.jpg" 
          alt="Handphone"
          class="absolute inset-0 w-full h-full object-cover opacity-40">
     <div class="relative container mx-auto text-center h-full flex flex-col justify-center items-center">
