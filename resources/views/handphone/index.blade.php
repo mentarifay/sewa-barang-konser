@@ -50,7 +50,7 @@
 
         <!-- Product 2 -->
         <div class="group relative bg-gray-50 p-4 rounded-lg shadow hover:shadow-lg transition">
-          <img src="https://i.pinimg.com/736x/5d/74/9f/5d749f6425ae045ba195f5e7a93a35ae.jpg" 
+          <img src="https://i.pinimg.com/1200x/87/d3/0a/87d30a844086ad9fd3ed2c989d9025c0.jpg" 
                alt="iPhone 13 Pro" 
                class="aspect-square w-full rounded-md object-cover group-hover:opacity-90 lg:aspect-auto lg:h-80" />
           <div class="mt-4 flex justify-between items-start">
