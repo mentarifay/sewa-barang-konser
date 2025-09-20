@@ -15,14 +15,14 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <!-- Gambar besar -->
       <div>
-        <img src="" 
+        <img src="https://i.pinimg.com/736x/73/a9/ee/73a9ee88b19f2dcddb55f7e71826da62.jpg" 
              alt="Samsung Galaxy S21"
              class="w-full h-auto rounded-lg shadow-lg">
       </div>
 
       <!-- Detail -->
       <div>
-        <h1 class="text-3xl font-bold text-gray-900 mb-4">Samsung Galaxy S21</h1>
+        <h1 class="text-3xl font-bold text-gray-900 mb-4">Iphone 13 Pro</h1>
         <p class="text-gray-600 mb-6">
           Handphone flagship dengan performa tinggi. 8GB RAM, 128GB Storage, kamera jernih, 
           baterai awet. Cocok untuk kerja, konser, atau kebutuhan konten. Kondisi barang terawat.
@@ -32,7 +32,7 @@
         <!-- Tombol sewa -->
         <a href="/pembayaran" 
            class="inline-block bg-green-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-green-700">
-           Ke Pembayaran
+           Sewa Sekarang
         </a>
       </div>
     </div>
@@ -70,7 +70,7 @@
 
         <!-- Referensi 2 -->
         <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
-          <img src="https://i.pinimg.com/736x/94/a3/27/94a32767e7a5d3889e4c6257101108d6.jpg" 
+          <img src="https://i.pinimg.com/1200x/18/db/7f/18db7fe2ac7dfd458029317fab2d612d.jpg" 
                alt="Powerbank"
                class="w-full h-48 object-cover rounded">
           <h3 class="mt-4 font-semibold text-gray-900">Powerbank 20.000mAh</h3>
