@@ -4,7 +4,8 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\Auth\RegisterController;
 
 // route untuk nampilin form
-Route::get('/create-account', [RegisterController::class, 'showRegistrationForm'])->name('register');
+Route::get('/create-account', [RegisterController::class, 'showRegistrationForm'])->name('create-account');  
+Route::post('/create-account', [RegisterController::class, 'register'])->name('create-account.store');
 
 // route untuk proses form (POST)
 Route::post('/create-account', [RegisterController::class, 'register'])->name('register.store');
