@@ -31,7 +31,7 @@
 
         <!-- Tombol sewa -->
         <a href="/pembayaran" 
-           class="inline-block bg-green-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-green-700">
+           class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700">
            Sewa Sekarang
         </a>
       </div>
