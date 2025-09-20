@@ -61,7 +61,7 @@
 
         <!-- Referensi 1 -->
         <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
-          <img src="https://i.pinimg.com/736x/d1/17/5f/d1175f6b352b7c2cb8e3dc48fa94bc63.jpg" 
+          <img src="https://i.pinimg.com/1200x/43/07/3b/43073b3f658161d3664f437b4a80de44.jpg" 
                alt="Powerbank"
                class="w-full h-48 object-cover rounded">
           <h3 class="mt-4 font-semibold text-gray-900">Powerbank 20.000mAh</h3>
@@ -70,11 +70,11 @@
 
         <!-- Referensi 2 -->
         <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
-          <img src="https://i.pinimg.com/736x/6a/b9/53/6ab953c26a32f3e1457b21a2cdb08f74.jpg" 
-               alt="Kipas Portable"
+          <img src="https://i.pinimg.com/1200x/87/d3/0a/87d30a844086ad9fd3ed2c989d9025c0.jpg" 
+               alt="Handphone"
                class="w-full h-48 object-cover rounded">
-          <h3 class="mt-4 font-semibold text-gray-900">Kipas Portable</h3>
-          <p class="text-blue-600 font-bold">Rp 15.000 / hari</p>
+          <h3 class="mt-4 font-semibold text-gray-900">Iphone 13 Pro</h3>
+          <p class="text-blue-600 font-bold">Rp 50.000/ hari</p>
         </div>
 
       </div>
