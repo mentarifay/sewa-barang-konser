@@ -38,4 +38,3 @@ Route::view('/powerbank/{id}', 'powerbank.detail')->name('powerbank.detail');
 // Handphone
 Route::view('/handphone', 'handphone.index')->name('handphone.index');
 Route::view('/handphone/{id}', 'handphone.detail')->name('handphone.detail');
-
