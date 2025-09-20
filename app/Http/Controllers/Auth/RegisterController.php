@@ -11,7 +11,7 @@ class RegisterController extends Controller
 {
     public function showRegisterForm()
     {
-        return view('auth.register');
+        return view('auth.create.account');
     }
 
     public function register(Request $request)
