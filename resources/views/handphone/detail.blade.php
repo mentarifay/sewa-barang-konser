@@ -61,7 +61,7 @@
 
         <!-- Referensi 1 -->
         <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
-          <img src="https://i.pinimg.com/736x/bf/13/26/bf1326710c146f75dcf8f33f4aa5ad9d.jpg" 
+          <img src="https://i.pinimg.com/1200x/87/d3/0a/87d30a844086ad9fd3ed2c989d9025c0.jpg" 
                alt="iPhone 13 Pro"
                class="w-full h-48 object-cover rounded">
           <h3 class="mt-4 font-semibold text-gray-900">iPhone 13 Pro</h3>
@@ -70,7 +70,7 @@
 
         <!-- Referensi 2 -->
         <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
-          <img src="https://i.pinimg.com/1200x/18/db/7f/18db7fe2ac7dfd458029317fab2d612d.jpg" 
+          <img src="https://i.pinimg.com/1200x/43/07/3b/43073b3f658161d3664f437b4a80de44.jpg" 
                alt="Powerbank"
                class="w-full h-48 object-cover rounded">
           <h3 class="mt-4 font-semibold text-gray-900">Powerbank 20.000mAh</h3>
