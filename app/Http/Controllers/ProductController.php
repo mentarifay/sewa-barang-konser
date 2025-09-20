@@ -6,6 +6,30 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
+    // tampilkan daftar produk (untuk customer)
+    public function index()
+    {
+        // daftar produk bisa kamu ambil dari database atau hardcode dulu
+        $products = [
+            ['name' => 'Lightstick', 'price' => 300000],
+            ['name' => 'Powerbank', 'price' => 150000],
+            ['name' => 'Handphone', 'price' => 2500000],
+            ['name' => 'Kipas Portable', 'price' => 100000],
+            ['name' => 'Image Picket', 'price' => 50000],
+        ];
+        return view('products.index', compact('products'));
+    }
+
+    // detail produk by nama
+    public function show($product)
+    {
+        if (view()->exists('products.' . $product)) {
+            return view('products.' . $product);
+        }
+
+        abort(404);
+    }
+    
     public function showLightstick()
     {
         // Logika untuk menampilkan produk lightstick
