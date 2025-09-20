@@ -3,62 +3,135 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Detail Produk - Powerbank</title>
+  <title>Detail Produk Powerbank</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100">
 
-  <div class="max-w-5xl mx-auto py-12 px-6">
-    <!-- Product Section -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <img src="https://cdn.thewirecutter.com/wp-content/media/2023/04/powerbanks-2048px-ankerpowercore20100-scaled.jpg" 
-           alt="Powerbank" 
-           class="rounded-lg shadow-lg w-full h-auto">
+  <div class="max-w-7xl mx-auto py-12 px-6 lg:px-8 space-y-20">
 
-      <div>
-        <h1 class="text-3xl font-bold text-gray-900 mb-4">Powerbank 20.000mAh</h1>
-        <p class="text-gray-600 mb-4">Kondisi sangat baik, cocok untuk konser dan perjalanan panjang. Fast charging support.</p>
-        <p class="text-2xl font-bold text-blue-600 mb-6">Rp 25.000 / hari</p>
+    <!-- ==================== PRODUK 1 ==================== -->
+    <div class="bg-white p-8 rounded-xl shadow-lg">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <!-- Gambar -->
+        <div>
+          <img src="https://i.pinimg.com/736x/2d/8f/d1/2d8fd188d84c3e9c5fa7b9bbcb7b26aa.jpg" 
+               alt="Powerbank Anker 20000mAh"
+               class="w-full h-auto rounded-lg shadow-md">
+        </div>
 
-        <a href="/pembayaran" 
-           class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700">
-          Sewa Sekarang
-        </a>
+        <!-- Detail -->
+        <div>
+          <h1 class="text-3xl font-bold text-gray-900 mb-4">Powerbank Anker 20000mAh</h1>
+          <p class="text-gray-600 mb-6">
+            Kondisi sangat baik, kapasitas besar 20.000mAh, mendukung fast charging, cocok untuk perjalanan panjang.
+          </p>
+          <p class="text-2xl font-bold text-blue-600 mb-6">Rp 25.000 / hari</p>
+          <a href="/pembayaran" 
+             class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700">
+             Sewa Sekarang
+          </a>
+        </div>
+      </div>
+
+      <!-- Ulasan -->
+      <div class="mt-12">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6">Ulasan Pelanggan</h2>
+        <div class="space-y-6">
+          <div class="bg-gray-50 p-6 rounded-lg shadow">
+            <p class="font-semibold text-gray-800">⭐ 5/5 - Andi</p>
+            <p class="text-gray-600 mt-2">Baterai awet banget, bisa ngecas HP sampai 5 kali. Mantap!</p>
+          </div>
+          <div class="bg-gray-50 p-6 rounded-lg shadow">
+            <p class="font-semibold text-gray-800">⭐ 4/5 - Clara</p>
+            <p class="text-gray-600 mt-2">Cukup berat, tapi performanya luar biasa. Worth it buat sewa.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Referensi -->
+      <div class="mt-12">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6">Orang juga menyewa</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
+            <img src="https://i.pinimg.com/736x/91/fb/ef/91fbef7939b5e77d2d4ba230e6b58d92.jpg" 
+                 alt="Lightstick SEVENTEEN"
+                 class="w-full h-48 object-cover rounded">
+            <h3 class="mt-4 font-semibold text-gray-900">Lightstick SEVENTEEN</h3>
+            <p class="text-blue-600 font-bold">Rp 50.000 / hari</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
+            <img src="https://i.pinimg.com/736x/41/4f/c2/414fc289d356ba08a6f0e50b50502f58.jpg" 
+                 alt="Samsung Galaxy S21"
+                 class="w-full h-48 object-cover rounded">
+            <h3 class="mt-4 font-semibold text-gray-900">Samsung Galaxy S21</h3>
+            <p class="text-blue-600 font-bold">Rp 80.000 / hari</p>
+          </div>
+        </div>
       </div>
     </div>
 
-    <!-- Customer Reviews -->
-    <div class="mt-12">
-      <h2 class="text-xl font-bold mb-4">Ulasan Pelanggan</h2>
-      <div class="space-y-4">
-        <div class="bg-white p-4 rounded-lg shadow">
-          <p class="font-semibold">⭐ 5/5 - Dina</p>
-          <p>Baterai tahan lama banget, dipakai seharian masih awet. Puas!</p>
+    <!-- ==================== PRODUK 2 ==================== -->
+    <div class="bg-white p-8 rounded-xl shadow-lg">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <!-- Gambar -->
+        <div>
+          <img src="https://i.pinimg.com/736x/71/5d/19/715d197e57c7e27c1549a9f34db7e50b.jpg" 
+               alt="Powerbank Xiaomi 10000mAh"
+               class="w-full h-auto rounded-lg shadow-md">
         </div>
-        <div class="bg-white p-4 rounded-lg shadow">
-          <p class="font-semibold">⭐ 4/5 - Andi</p>
-          <p>Charging cepat, cuma agak berat. Tapi overall oke.</p>
+
+        <!-- Detail -->
+        <div>
+          <h1 class="text-3xl font-bold text-gray-900 mb-4">Powerbank Xiaomi 10000mAh</h1>
+          <p class="text-gray-600 mb-6">
+            Powerbank slim, kapasitas 10.000mAh, ringan dan mudah dibawa, mendukung pengisian cepat 18W.
+          </p>
+          <p class="text-2xl font-bold text-blue-600 mb-6">Rp 18.000 / hari</p>
+          <a href="/pembayaran" 
+             class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700">
+             Sewa Sekarang
+          </a>
+        </div>
+      </div>
+
+      <!-- Ulasan -->
+      <div class="mt-12">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6">Ulasan Pelanggan</h2>
+        <div class="space-y-6">
+          <div class="bg-gray-50 p-6 rounded-lg shadow">
+            <p class="font-semibold text-gray-800">⭐ 5/5 - Bella</p>
+            <p class="text-gray-600 mt-2">Ringan banget dibawa ke mana-mana. Pas buat traveling!</p>
+          </div>
+          <div class="bg-gray-50 p-6 rounded-lg shadow">
+            <p class="font-semibold text-gray-800">⭐ 4/5 - Dika</p>
+            <p class="text-gray-600 mt-2">Lumayan cepat ngecas, cuma kabelnya agak pendek.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Referensi -->
+      <div class="mt-12">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6">Orang juga menyewa</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
+            <img src="https://i.pinimg.com/736x/4c/df/48/4cdf480bc982545df8282debf7e9e2d8.jpg" 
+                 alt="Lightstick BTS"
+                 class="w-full h-48 object-cover rounded">
+            <h3 class="mt-4 font-semibold text-gray-900">Lightstick BTS</h3>
+            <p class="text-blue-600 font-bold">Rp 60.000 / hari</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
+            <img src="https://i.pinimg.com/736x/44/b1/b9/44b1b9657f1a5d7a0a3cf17eec4a5d70.jpg" 
+                 alt="iPhone 13 Pro"
+                 class="w-full h-48 object-cover rounded">
+            <h3 class="mt-4 font-semibold text-gray-900">iPhone 13 Pro</h3>
+            <p class="text-blue-600 font-bold">Rp 100.000 / hari</p>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Related Products -->
-    <div class="mt-12">
-      <h2 class="text-xl font-bold mb-4">Orang juga menyewa</h2>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
-        <div class="bg-white p-4 rounded-lg shadow text-center">
-          <img src="https://cf.shopee.co.id/file/f59b25e8d7e3ed18b1f6b6d1f6b19afc" class="mx-auto h-32 object-cover mb-4">
-          <p>Kipas Portable</p>
-          <p class="text-blue-600 font-bold">Rp 15.000 / hari</p>
-        </div>
-        <div class="bg-white p-4 rounded-lg shadow text-center">
-          <img src="https://cf.shopee.co.id/file/76e2c27f46ce2aa3dd5ad8fbd40b3f21" class="mx-auto h-32 object-cover mb-4">
-          <p>Lightstick BTS</p>
-          <p class="text-blue-600 font-bold">Rp 60.000 / hari</p>
-        </div>
-      </div>
-    </div>
   </div>
-
 </body>
 </html>
