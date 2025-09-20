@@ -25,7 +25,7 @@
   <section class="py-16 bg-white">
     <div class="container mx-auto px-6 max-w-lg">
       <h2 class="text-3xl font-bold text-center text-gray-900 mb-6">Create Account</h2>
-      <form action="{{ route('createAccount') }}" method="POST" class="space-y-6" enctype="multipart/form-data">
+      <form action="{{ route('create.account.store') }}" method="POST" class="space-y-6" enctype="multipart/form-data">
           @csrf
         
         <!-- Full Name -->
