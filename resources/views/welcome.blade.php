@@ -25,18 +25,13 @@
         <a href="/" class="hover:text-gray-300">Home</a>
         <a href="/tentang-kami" class="hover:text-gray-300">Tentang Kami</a>
         
-        <!-- Dropdown Daftar Barang -->
+                <!-- Dropdown Daftar Barang -->
         <div x-data="{ open: false }" class="relative">
-          <button @click="open = !open" class="hover:text-gray-300 focus:outline-none">
-            Daftar Barang
-          </button>
-          <!-- Dropdown Menu -->
-          <div x-show="open" @click.away="open = false"
-               x-transition
-               class="absolute left-0 mt-2 w-48 bg-white text-black rounded-lg shadow-lg py-2 z-50">
-            <a href="/lightstick" class="block px-4 py-2 hover:bg-gray-100">Lightstick</a>
-            <a href="/powerbank" class="block px-4 py-2 hover:bg-gray-100">Powerbank</a>
-            <a href="/handphone" class="block px-4 py-2 hover:bg-gray-100">Handphone</a>
+          <button @click="open = !open" class="hover:text-gray-300">Daftar Barang</button>
+          <div x-show="open" @click.away="open = false" class="absolute left-0 mt-2 w-48 bg-white text-black rounded-lg shadow-lg py-2 z-50">
+            <a href="{{ route('products.lightstick') }}" class="block px-4 py-2 hover:bg-gray-100">Lightstick</a>
+            <a href="{{ route('products.powerbank') }}" class="block px-4 py-2 hover:bg-gray-100">Powerbank</a>
+            <a href="{{ route('products.handphone') }}" class="block px-4 py-2 hover:bg-gray-100">Handphone</a>
           </div>
         </div>
 
