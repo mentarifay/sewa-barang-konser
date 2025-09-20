@@ -43,14 +43,17 @@ Route::get('/hubungi-kami', function () {
     return view('hubungi'); 
 })->name('hubungi');
 
-Route::get('/lightstick/{id}', function ($id) {
-    return view('lightstick.detail');
-})->name('lightstick.detail');
+Route::view('/lightstick', 'lightstick.index')->name('lightstick.index');
+Route::view('/lightstick/{id}', 'lightstick.detail')->name('lightstick.detail');
 
-Route::get('/powerbank/{id}', function ($id) {
-    return view('powerbank.detail');
-})->name('powerbank.detail');
+// ==============================
+// Powerbank
+// ==============================
+Route::view('/powerbank', 'powerbank.index')->name('powerbank.index');
+Route::view('/powerbank/{id}', 'powerbank.detail')->name('powerbank.detail');
 
-Route::get('/handphone/{id}', function ($id) {
-    return view('handphone.detail');
-})->name('handphone.detail');
+// ==============================
+// Handphone
+// ==============================
+Route::view('/handphone', 'handphone.index')->name('handphone.index');
+Route::view('/handphone/{id}', 'handphone.detail')->name('handphone.detail');
