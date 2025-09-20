@@ -30,7 +30,7 @@
         
         <!-- Product 1 -->
         <div class="group relative bg-gray-50 p-4 rounded-lg shadow hover:shadow-lg transition">
-          <img src="https://i.pinimg.com/736x/21/c2/80/21c280e368bc932f84e0c63c5d9f6e3e.jpg" 
+          <img src="https://i.pinimg.com/736x/94/a3/27/94a32767e7a5d3889e4c6257101108d6.jpg" 
                alt="Samsung Galaxy S21" 
                class="aspect-square w-full rounded-md object-cover group-hover:opacity-90 lg:aspect-auto lg:h-80" />
           <div class="mt-4 flex justify-between items-start">
