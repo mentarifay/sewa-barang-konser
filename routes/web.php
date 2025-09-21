@@ -20,7 +20,6 @@ Route::get('/products/handphones',  [App\Http\Controllers\ProductController::cla
 // Halaman "Tentang Kami" & umum
 Route::view('/tentang-kami', 'tentang-kami')->name('tentangKami');
 Route::view('/sign-in', 'sign-in')->name('signIn');
-Route::view('/create-account', 'create-account')->name('createAccount');
 Route::view('/terms-and-conditions', 'terms-and-conditions')->name('termsAndConditions');
 Route::view('/shop', 'shop-page')->name('shop');
 Route::view('/hubungi-kami', 'hubungi')->name('hubungi');
