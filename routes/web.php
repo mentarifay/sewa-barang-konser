@@ -40,3 +40,9 @@ Route::get('/lightstick', function () { return view('lightstick.index'); });
 Route::get('/lightstick/detail1', function () { return view('lightstick.detail1'); });
 Route::get('/lightstick/detail2', function () { return view('lightstick.detail2'); });
 
+// Halaman Checkout
+Route::get('/checkout', function () {
+    return view('checkout.index');
+})->name('checkout');
+
+
