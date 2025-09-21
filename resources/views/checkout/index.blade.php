@@ -17,9 +17,9 @@
 
       <div class="mb-8">
         <h3 class="text-xl font-semibold text-gray-900">Detail Pemesanan</h3>
-        <ul class="list-disc pl-5">
-          <li>Lightstick SEVENTEEN - Rp 50.000 / hari</li>
-          <li>Lightstick BTS - Rp 60.000 / hari</li>
+        <ul class="list-disc pl-5 space-y-2">
+          <li>Lightstick SEVENTEEN - <span class="font-semibold text-gray-800">Rp 50.000 / hari</span></li>
+          <li>Lightstick BTS - <span class="font-semibold text-gray-800">Rp 60.000 / hari</span></li>
         </ul>
       </div>
 
@@ -31,7 +31,7 @@
 
       <!-- Pembayaran -->
       <div>
-        <a href="{{ route('payment') }}" class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700">
+        <a href="{{ route('payment') }}" class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
           Bayar Sekarang
         </a>
       </div>
