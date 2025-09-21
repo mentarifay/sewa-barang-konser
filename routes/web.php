@@ -58,8 +58,8 @@ Route::get('/handphone/detail2', function () {
 
 
 // Halaman utama lightstick
-Route::get('/lightsticks', function () {
-    return view('lightsticks.index');
+Route::get('/lightstick', function () {
+    return view('lightstick.index');
 });
 
 // Detail produk lightstick seventeen
