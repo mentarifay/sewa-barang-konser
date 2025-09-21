@@ -13,9 +13,9 @@ Route::post('/create-account', [RegisterController::class, 'storeAccount'])->nam
 Route::view('/', 'welcome')->name('home');
 
 // Dropdown kategori (controller → products/*.blade.php)
-Route::get('/products/lightstick', [ProductController::class, 'showLightstick'])->name('products.lightstick');
-Route::get('/products/powerbank',  [ProductController::class, 'showPowerbank'])->name('products.powerbank');
-Route::get('/products/handphone',  [ProductController::class, 'showHandphone'])->name('products.handphone');
+Route::get('/products/lightsticks', [ProductController::class, 'showLightstick'])->name('products.lightsticks');
+Route::get('/products/powerbanks',  [ProductController::class, 'showPowerbank'])->name('products.powerbanks');
+Route::get('/products/handphones',  [ProductController::class, 'showHandphone'])->name('products.handphones');
 
 // Halaman "Tentang Kami" & umum
 Route::view('/tentang-kami', 'tentang-kami')->name('tentangKami');
