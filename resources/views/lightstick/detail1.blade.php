@@ -15,7 +15,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <!-- Gambar -->
         <div>
-          <img src="https://i.pinimg.com/736x/63/87/fe/6387fe80b31750c1e7a01b949d39a92c.jpg" 
+          <img src="https://i.pinimg.com/736x/dd/d9/dd/ddd9dd06720dc22f9fecb1cdb997b4d9.jpg" 
                alt="Lightstick SEVENTEEN"
                class="w-full h-auto rounded-lg shadow-md">
         </div>
@@ -54,14 +54,14 @@
         <h2 class="text-2xl font-bold text-gray-900 mb-6">Orang juga menyewa</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
-            <img src="https://i.pinimg.com/736x/9d/eb/c1/9debc1f4c6f0d19220a81b72d9c9d902.jpg" 
+            <img src="https://i.pinimg.com/736x/aa/32/68/aa3268c1a2e0c97b80787932ad4b01a4.jpg" 
                  alt="Lightstick BTS"
                  class="w-full h-48 object-cover rounded">
             <h3 class="mt-4 font-semibold text-gray-900">Lightstick BTS</h3>
             <p class="text-blue-600 font-bold">Rp 60.000 / hari</p>
           </div>
           <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
-            <img src="https://i.pinimg.com/736x/1a/0f/77/1a0f774fd64fefc4aa6f1a9074d5a62e.jpg" 
+            <img src="https://id.pinterest.com/pin/20758848274585951/" 
                  alt="Iphone 13 Pro"
                  class="w-full h-48 object-cover rounded">
             <h3 class="mt-4 font-semibold text-gray-900">Iphone 13 Pro</h3>
