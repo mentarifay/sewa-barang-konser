@@ -15,17 +15,33 @@
       <h1 class="text-3xl font-bold text-gray-900 mb-4">Pembayaran</h1>
       <p class="text-lg text-gray-600 mb-6">Silakan pilih metode pembayaran Anda</p>
 
-      <!-- Pilihan Pembayaran -->
+      <!-- Pilihan Pembayaran dengan Bank Transfer -->
       <div>
-        <button class="bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg mb-4 hover:bg-blue-700 w-full">
-          Pembayaran dengan Bank Transfer
-        </button>
-        <button class="bg-green-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-green-700 w-full">
-          Pembayaran dengan OVO
-        </button>
-        <button class="bg-red-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-red-700 w-full">
-          Pembayaran dengan GoPay
-        </button>
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">Pembayaran melalui Bank Transfer</h3>
+
+        <!-- Bank Transfer Options -->
+        <div class="space-y-4">
+          <div class="flex items-center">
+            <input type="radio" name="bank" id="bank1" class="mr-3">
+            <label for="bank1" class="text-lg text-gray-900">Bank BCA - 1234567890</label>
+          </div>
+          <div class="flex items-center">
+            <input type="radio" name="bank" id="bank2" class="mr-3">
+            <label for="bank2" class="text-lg text-gray-900">Bank Mandiri - 9876543210</label>
+          </div>
+          <div class="flex items-center">
+            <input type="radio" name="bank" id="bank3" class="mr-3">
+            <label for="bank3" class="text-lg text-gray-900">Bank BRI - 1122334455</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Konfirmasi Pembayaran -->
+      <div class="mt-8">
+        <p class="text-lg text-gray-600 mb-4">Silakan transfer ke nomor rekening yang telah dipilih dan konfirmasi pembayaran Anda.</p>
+        <a href="{{ route('payment.confirmation') }}" class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700">
+          Konfirmasi Pembayaran
+        </a>
       </div>
     </div>
 
