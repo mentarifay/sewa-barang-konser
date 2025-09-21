@@ -42,7 +42,7 @@
             </div>
             <p class="text-md font-bold text-blue-600">Rp 50.000 / hari</p>
           </div>
-          <a href="/lightstick/1"
+          <a href="/lightstick/detail1"
              class="mt-4 inline-block w-full text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700">
              Lihat Detail
           </a>
@@ -62,7 +62,7 @@
             </div>
             <p class="text-md font-bold text-blue-600">Rp 60.000 / hari</p>
           </div>
-          <a href="/lightstick/2"
+          <a href="/lightstick/detail2"
              class="mt-4 inline-block w-full text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700">
              Lihat Detail
           </a>
