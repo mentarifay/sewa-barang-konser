@@ -55,8 +55,13 @@ Route::get('/payment/confirmation', function () {
     return view('pembayaran.confirmation');
 })->name('payment.confirmation');
 
-// Rute untuk halaman Status Pembayaran
-Route::get('/payment/status', function () {
-    return view('pembayaran.status');
+
+// Rute untuk halaman Status Pembayaran (Verifikasi Pembayaran)
+Route::post('/payment/status', function (Request $request) {
+    // Simulasi proses konfirmasi pembayaran di backend
+    // Biasanya kamu akan menyimpan bukti pembayaran di database dan memverifikasi statusnya
+    // Sebagai contoh, kita arahkan ke halaman status pembayaran
+    return view('pembayaran.status', ['status' => 'waiting']); // Ganti 'waiting' sesuai dengan status pembayaran
 })->name('payment.status');
+
 
