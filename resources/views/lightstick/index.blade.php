@@ -30,7 +30,7 @@
         
         <!-- Product 1 -->
         <div class="group relative bg-gray-50 p-4 rounded-lg shadow hover:shadow-lg transition">
-          <img src="https://i.pinimg.com/1200x/91/fb/ef/91fbef7939b5e77d2d4ba230e6b58d92.jpg" 
+          <img src="https://i.pinimg.com/1200x/40/fc/95/40fc9561f63d7c71eaa5a203cf82134f.jpg" 
                alt="Lightstick SEVENTEEN" 
                class="aspect-square w-full rounded-md object-cover group-hover:opacity-90 lg:aspect-auto lg:h-80" />
           <div class="mt-4 flex justify-between items-start">
@@ -50,7 +50,7 @@
 
         <!-- Product 2 -->
         <div class="group relative bg-gray-50 p-4 rounded-lg shadow hover:shadow-lg transition">
-          <img src="https://i.pinimg.com/736x/4c/df/48/4cdf480bc982545df8282debf7e9e2d8.jpg" 
+          <img src="https://i.pinimg.com/736x/aa/32/68/aa3268c1a2e0c97b80787932ad4b01a4.jpg" 
                alt="Lightstick BTS" 
                class="aspect-square w-full rounded-md object-cover group-hover:opacity-90 lg:aspect-auto lg:h-80" />
           <div class="mt-4 flex justify-between items-start">
