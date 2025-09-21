@@ -42,7 +42,7 @@
             </div>
             <p class="text-md font-bold text-blue-600">Rp 25.000 / hari</p>
           </div>
-          <a href="/powerbank/1"
+          <a href="/powerbank/detail1"
              class="mt-4 inline-block w-full text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700">
              Lihat Detail
           </a>
@@ -62,7 +62,7 @@
             </div>
             <p class="text-md font-bold text-blue-600">Rp 20.000 / hari</p>
           </div>
-          <a href="/powerbank/2"
+          <a href="/powerbank/detail2"
              class="mt-4 inline-block w-full text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700">
              Lihat Detail
           </a>
