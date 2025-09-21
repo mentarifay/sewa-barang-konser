@@ -13,9 +13,9 @@ Route::post('/create-account', [RegisterController::class, 'storeAccount'])->nam
 Route::view('/', 'welcome')->name('home');
 
 // Dropdown kategori (controller → products/*.blade.php)
-Route::get('/products/lightsticks', [ProductController::class, 'showLightstick'])->name('products.lightsticks');
-Route::get('/products/powerbanks',  [ProductController::class, 'showPowerbank'])->name('products.powerbanks');
-Route::get('/products/handphones',  [ProductController::class, 'showHandphone'])->name('products.handphones');
+Route::get('/products/lightsticks', [App\Http\Controllers\ProductController::class, 'showLightstick'])->name('products.lightsticks');
+Route::get('/products/powerbanks',  [App\Http\Controllers\ProductController::class, 'showPowerbank'])->name('products.powerbanks');
+Route::get('/products/handphones',  [App\Http\Controllers\ProductController::class, 'showHandphone'])->name('products.handphones');
 
 // Halaman "Tentang Kami" & umum
 Route::view('/tentang-kami', 'tentang-kami')->name('tentangKami');
@@ -26,49 +26,17 @@ Route::view('/shop', 'shop-page')->name('shop');
 Route::view('/hubungi-kami', 'hubungi')->name('hubungi');
 
 // Halaman kategori list/detail
-// Halaman utama powerbank
-Route::get('/powerbank', function () {
-    return view('powerbank.index');
-});
+Route::get('/powerbank', function () { return view('powerbank.index'); });
+Route::get('/powerbank/detail1', function () { return view('powerbank.detail1'); });
+Route::get('/powerbank/detail2', function () { return view('powerbank.detail2'); });
 
-// Detail produk powerbank anker
-Route::get('/powerbank/detail1', function () {
-    return view('powerbank.detail1');
-});
+// Handphone
+Route::get('/handphone', function () { return view('handphone.index'); });
+Route::get('/handphone/detail1', function () { return view('handphone.detail1'); });
+Route::get('/handphone/detail2', function () { return view('handphone.detail2'); });
 
-// Detail produk powerbank xiaomi
-Route::get('/powerbank/detail2', function () {
-    return view('powerbank.detail2');
-});
-
-// Halaman utama handphone
-Route::get('/handphone', function () {
-    return view('handphone.index');
-});
-
-// Detail Samsung Galaxy S21
-Route::get('/handphone/detail1', function () {
-    return view('handphone.detail1');
-});
-
-// Detail iPhone 13 Pro
-Route::get('/handphone/detail2', function () {
-    return view('handphone.detail2');
-});
-
-
-// Halaman utama lightstick
-Route::get('/lightstick', function () {
-    return view('lightstick.index');
-});
-
-// Detail produk lightstick seventeen
-Route::get('/lightstick/detail1', function () {
-    return view('lightstick.detail1');
-});
-
-// Detail produk lightstick BTS
-Route::get('/lightstick/detail2', function () {
-    return view('lightstick.detail2');
-});
+// Lightstick
+Route::get('/lightstick', function () { return view('lightstick.index'); });
+Route::get('/lightstick/detail1', function () { return view('lightstick.detail1'); });
+Route::get('/lightstick/detail2', function () { return view('lightstick.detail2'); });
 
