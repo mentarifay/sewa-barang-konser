@@ -16,27 +16,33 @@
       <p class="text-lg text-gray-600 mb-6">Silakan unggah bukti transfer untuk melanjutkan.</p>
 
       <!-- Form Upload Bukti Pembayaran -->
-      <div class="space-y-4">
-        <div>
-          <label class="block text-lg text-gray-900">Pilih Bank:</label>
-          <select class="w-full px-4 py-2 border rounded-lg">
-            <option value="bca">Bank BCA</option>
-            <option value="mandiri">Bank Mandiri</option>
-            <option value="bri">Bank BRI</option>
-          </select>
-        </div>
+      <form action="{{ route('payment.status') }}" method="POST" enctype="multipart/form-data">
+        @csrf
+        <div class="space-y-4">
+          <!-- Pilih Bank -->
+          <div>
+            <label class="block text-lg text-gray-900">Pilih Bank:</label>
+            <select name="bank" class="w-full px-4 py-2 border rounded-lg">
+              <option value="bca">Bank BCA</option>
+              <option value="mandiri">Bank Mandiri</option>
+              <option value="bri">Bank BRI</option>
+            </select>
+          </div>
 
-        <div>
-          <label class="block text-lg text-gray-900">Unggah Bukti Transfer:</label>
-          <input type="file" class="w-full p-4 border rounded-lg">
-        </div>
+          <!-- Unggah Bukti Transfer -->
+          <div>
+            <label class="block text-lg text-gray-900">Unggah Bukti Transfer:</label>
+            <input type="file" name="bukti_transfer" class="w-full p-4 border rounded-lg" required>
+          </div>
 
-        <div>
-          <button class="w-full bg-blue-600 text-white font-semibold py-3 rounded-lg hover:bg-blue-700">
-            Kirim Konfirmasi Pembayaran
-          </button>
+          <!-- Tombol Kirim Konfirmasi Pembayaran -->
+          <div>
+            <button type="submit" class="w-full bg-blue-600 text-white font-semibold py-3 rounded-lg hover:bg-blue-700">
+              Kirim Konfirmasi Pembayaran
+            </button>
+          </div>
         </div>
-      </div>
+      </form>
     </div>
 
   </div>
