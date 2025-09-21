@@ -15,7 +15,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <!-- Gambar -->
         <div>
-          <img src="https://i.pinimg.com/736x/41/4f/c2/414fc289d356ba08a6f0e50b50502f58.jpg" 
+          <img src="https://i.pinimg.com/736x/94/a3/27/94a32767e7a5d3889e4c6257101108d6.jpg" 
                alt="Samsung Galaxy S21"
                class="w-full h-auto rounded-lg shadow-md">
         </div>
@@ -54,14 +54,14 @@
         <h2 class="text-2xl font-bold text-gray-900 mb-6">Orang juga menyewa</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
-            <img src="https://i.pinimg.com/736x/44/b1/b9/44b1b9657f1a5d7a0a3cf17eec4a5d70.jpg" 
+            <img src="https://i.pinimg.com/1200x/87/d3/0a/87d30a844086ad9fd3ed2c989d9025c0.jpg" 
                  alt="iPhone 13 Pro"
                  class="w-full h-48 object-cover rounded">
             <h3 class="mt-4 font-semibold text-gray-900">iPhone 13 Pro</h3>
             <p class="text-blue-600 font-bold">Rp 100.000 / hari</p>
           </div>
           <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
-            <img src="https://i.pinimg.com/736x/2d/8f/d1/2d8fd188d84c3e9c5fa7b9bbcb7b26aa.jpg" 
+            <img src="https://i.pinimg.com/1200x/8c/3c/dd/8c3cdd3c412201c3332d1587db32173a.jpg" 
                  alt="Powerbank Anker 20000mAh"
                  class="w-full h-48 object-cover rounded">
             <h3 class="mt-4 font-semibold text-gray-900">Powerbank Anker 20000mAh</h3>
