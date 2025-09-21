@@ -45,10 +45,16 @@ Route::get('/checkout', function () {
     return view('checkout.index');
 })->name('checkout');
 
-// Halaman Pembayaran
+// Rute untuk halaman Pembayaran
 Route::get('/pembayaran', function () {
     return view('pembayaran.index');
 })->name('payment');
+
+// Rute untuk halaman Konfirmasi Pembayaran
+Route::get('/payment/confirmation', function () {
+    return view('pembayaran.confirmation');
+})->name('payment.confirmation');
+
 
 
 
