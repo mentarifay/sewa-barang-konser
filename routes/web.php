@@ -55,6 +55,8 @@ Route::get('/payment/confirmation', function () {
     return view('pembayaran.confirmation');
 })->name('payment.confirmation');
 
-
-
+// Rute untuk halaman Status Pembayaran
+Route::get('/payment/status', function () {
+    return view('pembayaran.status');
+})->name('payment.status');
 
