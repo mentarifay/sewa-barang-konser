@@ -44,6 +44,6 @@ class RegisterController extends Controller
 
         auth()->login($user);
 
-        return redirect()->route('create-account')->with('success', 'Akun berhasil dibuat!');
+        return redirect()->route('home')->with('success', 'Akun berhasil dibuat!');
     }
 }
