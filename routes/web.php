@@ -4,7 +4,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\Auth\RegisterController;
 
 // Tampilkan form
-Route::get('/create-account', [RegisterController::class, 'showCreateForm'])->name('create.account');
+Route::get('/create-account', [RegisterController::class, 'showCreateForm'])->name('create-account');
 
 // Tangani form POST
 Route::post('/create-account', [RegisterController::class, 'storeAccount'])->name('create.account.store');
