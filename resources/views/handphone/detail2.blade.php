@@ -27,9 +27,9 @@
             Kamera profesional dengan sensor wide & ultra-wide. Kondisi sangat baik, cocok untuk konten kreator & konser.
           </p>
           <p class="text-2xl font-bold text-blue-600 mb-6">Rp 100.000 / hari</p>
-          <a href="/pembayaran" 
-             class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700">
-             Sewa Sekarang
+            <a href="{{ route('checkout') }}" 
+               class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700">
+               Sewa Sekarang
           </a>
         </div>
       </div>
