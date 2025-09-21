@@ -30,8 +30,8 @@
         
         <!-- Full Name -->
         <div>
-          <label for="full-name" class="block text-gray-700">Nama Lengkap</label>
-          <input type="text" id="full-name" name="full-name" required class="w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-500" placeholder="Nama Lengkap">
+          <label for="name" class="block text-gray-700">Nama Lengkap</label>
+          <input type="text" id="name" name="name" required class="w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-500" placeholder="Nama Lengkap">
         </div>
 
         <!-- Email -->
@@ -60,8 +60,8 @@
 
         <!-- Confirm Password -->
         <div>
-          <label for="confirm-password" class="block text-gray-700">Konfirmasi Password</label>
-          <input type="password" id="confirm-password" name="confirm-password" required class="w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-500" placeholder="Konfirmasi Password">
+          <label for="password_confirmation" class="block text-gray-700">Konfirmasi Password</label>
+          <input type="password" id="password_confirmation" name="password_confirmation" required class="w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-500" placeholder="Konfirmasi Password">
         </div>
 
         <!-- Upload KTP -->
@@ -78,8 +78,8 @@
 
         <!-- Terms and Conditions -->
         <div class="flex items-center">
-          <input type="checkbox" id="terms" name="terms" required class="h-5 w-5 text-yellow-500 focus:ring-2 focus:ring-yellow-500">
-          <label for="terms" class="ml-2 text-gray-700">Saya setuju dengan <a href="/terms-and-conditions" class="text-yellow-500 hover:underline">ketentuan dan kebijakan</a></label>
+          <input type="checkbox" id="agree" name="agree" required class="h-5 w-5 text-yellow-500 focus:ring-2 focus:ring-yellow-500">
+          <label for="agree" class="ml-2 text-gray-700">Saya setuju dengan <a href="/terms-and-conditions" class="text-yellow-500 hover:underline">ketentuan dan kebijakan</a></label>
         </div>
 
         <!-- Submit Button -->
@@ -96,19 +96,18 @@
       </form>
     </div>
   </section>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+  <!-- SweetAlert -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  @if(session('success'))
+      <script>
+          Swal.fire({
+              icon: 'success',
+              title: 'Berhasil!',
+              text: "{{ session('success') }}",
+              confirmButtonText: 'OK'
+          });
+      </script>
+  @endif
 </body>
-    
-@if(session('success'))
-    <script>
-        Swal.fire({
-            icon: 'success',
-            title: 'Berhasil!',
-            text: "{{ session('success') }}",
-            confirmButtonText: 'OK'
-        });
-    </script>
-@endif
-
 </html>
