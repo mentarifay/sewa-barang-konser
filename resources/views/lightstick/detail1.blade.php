@@ -61,7 +61,7 @@
             <p class="text-blue-600 font-bold">Rp 60.000 / hari</p>
           </div>
           <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
-            <img src="https://id.pinterest.com/pin/20758848274585951/" 
+            <img src="https://i.pinimg.com/1200x/b0/f0/75/b0f075bdb6983ff57c36738fdac8fe4a.jpg" 
                  alt="Iphone 13 Pro"
                  class="w-full h-48 object-cover rounded">
             <h3 class="mt-4 font-semibold text-gray-900">Iphone 13 Pro</h3>
