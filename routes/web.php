@@ -2,6 +2,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\Auth\RegisterController;
+use Illuminate\Http\Request;
 
 // Tampilkan form
 Route::get('/create-account', [RegisterController::class, 'showCreateForm'])->name('create-account');
@@ -56,11 +57,15 @@ Route::get('/payment/confirmation', function () {
 
 // Rute untuk menerima konfirmasi pembayaran (POST method)
 Route::post('/payment/status', function (Request $request) {
-    // Simpan bukti pembayaran dan pilih bank
-    $bank = $request->input('bank');
-    $buktiTransfer = $request->file('bukti_transfer');
+    // Ambil data bank dan bukti transfer dari request
+    $bank = $request->input('bank'); // Mengambil pilihan bank
+    $buktiTransfer = $request->file('bukti_transfer'); // Mengambil file bukti transfer
 
-    // Proses atau simpan bukti transfer di server, atau lakukan verifikasi pembayaran
+    // Proses atau simpan bukti transfer di server
+    // Contoh: menyimpan file bukti transfer di folder 'public/bukti_transfer'
+    if ($buktiTransfer) {
+        $buktiTransfer->storeAs('public/bukti_transfer', $buktiTransfer->getClientOriginalName());
+    }
 
     // Setelah memproses pembayaran, arahkan ke halaman status pembayaran
     return view('pembayaran.status', ['status' => 'waiting']); // Ganti 'waiting' sesuai dengan status pembayaran
